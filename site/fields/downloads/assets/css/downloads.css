@@ -1,0 +1,13 @@
+/* ------------------------------------------------------------- */
+/* Some basic styling */
+/* ------------------------------------------------------------- */
+
+.field-download {
+  display: none;
+}
+
+.field-name-download_link .field-icon,
+#form-field-download_link {
+  background: #ededed;
+  color: #444;
+}

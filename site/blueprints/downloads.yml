@@ -1,0 +1,87 @@
+title: Downloads
+pages: false
+files: true
+icon: download
+
+fields:
+  title:
+    label: Downloads
+    type:  text
+    readonly: true
+
+  download:
+    type: downloads
+
+  download_info:
+      label: Download Monitor
+      type: info
+      text: >
+        Welcome to the download-center; from here you can add / change / delete all the downloads for your site.
+
+        Visit the <a href="../../../downloads/?stats=true" target="_blank" title="view the stats">**download-page**</a> to see all the statistics.
+
+  downloads:
+    label: All downloads
+    type: structure
+    style: table
+    modalsize: large
+    fields:
+
+      download_id:
+        label: "Download #ID"
+        type: text
+        required: true
+        width: 1/3
+        icon: hashtag
+        help: "An unique download #ID"
+
+      download_cnt:
+        label: Initial count
+        type: number
+        required: false
+        default: 0
+        width: 1/3
+        icon: calculator
+        help: The initial count
+
+      download_source:
+        label: Download file
+        type: select
+        options: files
+        required: true
+        width: 1/3
+        help: The file to download
+
+      download_date:
+        label: Startdate
+        type:  date
+        width: 1/3
+        help: Set the startdate
+
+      download_force:
+        label: Force dowload?
+        type: checkbox
+        text: Force
+        width: 1/3
+        icon: download
+        help: Don't open in browser
+
+      download_log:
+        label: Log downloads?
+        type: checkbox
+        text: Logfile
+        width: 1/3
+        icon: file-text
+        help: Save a detailed logfile
+
+      download_link:
+        label: Downloadlink
+        type: text
+        icon: link
+        placeholder: www.yoursite.com
+        help: The link for this download (auto-generated)
+
+      download_comment:
+        label: Comment
+        type: textarea
+        placeholder: Add a comment about this download (optional)

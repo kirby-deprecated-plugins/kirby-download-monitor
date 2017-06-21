@@ -1,0 +1,107 @@
+body,
+html {
+  height: auto;
+}
+
+.error {
+  color: #c00;
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+.error span {
+  display: inline-block;
+  padding: 0 0 .1em 0;
+  border-bottom: 2px solid #c00;
+}
+
+.error b {
+  color: #df7373;
+}
+
+#downloads_wrapper {
+  background: #efefef;
+  margin: 5em auto 2em auto;
+  max-width: 1170px;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.text h3 {
+  font-size: 1.5em;
+  margin: 0 0 1em 0;
+}
+
+h3 span {
+  color: #888;
+  cursor: help;
+}
+
+.text hr {
+  margin: 0 0 1.5em 0;
+}
+
+i.fa {
+  background: #fafafa;
+  display: inline-block;
+  padding: .35em;
+  width: 2em;
+  text-align: center;
+  height: 2em;
+  line-height: 1.25em;
+  border: 1px solid #ccc;
+  margin: 0 .75em 0 0;
+  color: #444;
+  cursor: help;
+}
+
+ul {
+  list-style: none;
+  margin: 0 0 0 1em;
+}
+
+li {
+  margin: .5em 0;
+}
+
+li:last-of-type {
+  margin: 1em 0 0 0;
+  background: #fafafa;
+  padding: 1.25em 1em 0 1em;
+  border: 1px solid #ccc;
+  color: #444;
+}
+
+hr:last-of-type {
+  display: none;
+}
+
+header.topbar {
+  color: #fff;
+  padding: .75em 0 0 1em;
+}
+
+li a {
+  cursor: pointer;
+}
+
+.corrected {
+  font-size: .6em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+textarea.input {
+  height: 20em;
+  font-family: monospace;
+  font-size: 1.15em;
+  line-height: 1.5em;
+  background: #fafafa;
+}
+
+textarea.input.hidden {
+  min-height: 0;
+  height: 0;
+  padding: 0;
+  border: 0;
+}
